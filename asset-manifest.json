@@ -1,0 +1,84 @@
+{
+  "sourcePdf": "/home/ubuntu/upload/CulturewithKindnessPresentation.pdf",
+  "outputDirectory": "/home/ubuntu/kindness/source-assets",
+  "processing": {
+    "photos": "Original PDF image objects extracted and re-encoded as WebP (quality 85) with full aspect ratio preserved.",
+    "heroMaxEdgePx": 1800,
+    "otherPhotoMaxEdgePx": 1200,
+    "logo": "Original xref 30 colour stream combined with its PDF soft mask xref 190; only fully transparent outside margins were trimmed."
+  },
+  "assets": {
+    "heroPerformer": {
+      "storagePath": "/manus-storage/hero-performer_ea8700f3.webp",
+      "sourcePath": "source-assets/hero-performer.webp",
+      "sourcePdfObject": { "page": 1, "xref": 29 },
+      "dimensionsPx": [1800, 1200],
+      "bytes": 207296,
+      "format": "webp",
+      "credit": "Henry Curtis"
+    },
+    "groupWorkshop": {
+      "storagePath": "/manus-storage/workshop-group_91fa5458.webp",
+      "sourcePath": "source-assets/workshop-group.webp",
+      "sourcePdfObject": { "page": 3, "xref": 207 },
+      "dimensionsPx": [1200, 800],
+      "bytes": 112662,
+      "format": "webp",
+      "credit": "Henry Curtis"
+    },
+    "smilingParticipant": {
+      "storagePath": "/manus-storage/smiling-participant_e336f2ea.webp",
+      "sourcePath": "source-assets/smiling-participant.webp",
+      "sourcePdfObject": { "page": 4, "xref": 220 },
+      "dimensionsPx": [1200, 800],
+      "bytes": 61338,
+      "format": "webp",
+      "credit": null,
+      "creditNote": "No credit name was supplied for page 4."
+    },
+    "workshop": {
+      "storagePath": "/manus-storage/workshop_b411ccf1.webp",
+      "sourcePath": "source-assets/workshop.webp",
+      "sourcePdfObject": { "page": 6, "xref": 251 },
+      "dimensionsPx": [1200, 800],
+      "bytes": 59372,
+      "format": "webp",
+      "credit": "Ellie Kurttz"
+    },
+    "building": {
+      "storagePath": "/manus-storage/building_6c0b28d7.webp",
+      "sourcePath": "source-assets/building.webp",
+      "sourcePdfObject": { "page": 8, "xref": 282 },
+      "dimensionsPx": [1200, 675],
+      "bytes": 113744,
+      "format": "webp",
+      "credit": "Tracey Anderson",
+      "usageRestriction": "Building image only; do not use as a Jacqueline portrait."
+    },
+    "supportiveGroup": {
+      "storagePath": "/manus-storage/supportive-group_87bbf432.webp",
+      "sourcePath": "source-assets/supportive-group.webp",
+      "sourcePdfObject": { "page": 12, "xref": 97 },
+      "dimensionsPx": [1000, 667],
+      "bytes": 73872,
+      "format": "webp",
+      "credit": "Tracey Anderson"
+    },
+    "whiteCleanBreakLogo": {
+      "storagePath": "https://files.manuscdn.com/user_upload_by_module/session_file/310519664030598194/UyZSvReZKkvFKRGM.png",
+      "sourcePath": "source-assets/clean-break-white-logo.png",
+      "sourcePdfObject": { "page": 1, "xref": 30, "softMaskXref": 190 },
+      "dimensionsPx": [467, 223],
+      "bytes": 21156,
+      "format": "png",
+      "credit": "Clean Break",
+      "transparent": true
+    }
+  },
+  "logoUrl": "https://files.manuscdn.com/user_upload_by_module/session_file/310519664030598194/UyZSvReZKkvFKRGM.png",
+  "limitations": [
+    "Page 8 Anna image (xref 279) was intentionally not exported: its original resolution is only 196 x 267 pixels and it was optional.",
+    "The supporting group source (page 12) is 1000 x 667 pixels, so it was not upscaled to the 1200-pixel ceiling.",
+    "source-assets is a supplied-output staging folder and should be added to .gitignore later if the app consumes only uploaded storage paths."
+  ]
+}
