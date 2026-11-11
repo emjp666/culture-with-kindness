@@ -33,7 +33,7 @@ export default function Home() {
           </figure>
         </section>
         <section className="proof-strip page-width" aria-label="Our experience">
-          <div><span className="proof-value">45<span>+</span></span><p>years of creative practice<br />with safety and care at its heart</p></div>
+          <div><span className="proof-value">60<span>+</span></span><p>years of creative practice<br />with safety and care at its heart</p></div>
           <div><span className="proof-value">50<span>+</span></span><p>cultural organisations listened to<br />in shaping this programme</p></div>
           <div className="proof-statement"><Asterisk className="small-asterisk" size={48} strokeWidth={1.5} aria-hidden="true" /><p>For staff, freelancers<br /><strong>and volunteers.</strong></p></div>
         </section>
