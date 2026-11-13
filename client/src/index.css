@@ -444,9 +444,10 @@ details[open] summary .expand-icon svg, .faq-item[open] summary svg { transform:
 .previous-participants-heading h3 { font-size: 24px; }
 .previous-participants-heading p { margin-top: 12px; font-size: 15px; color: var(--muted); }
 .participant-logo-grid { list-style: none; display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 14px; margin: 32px 0 0; padding: 0; }
-.participant-logo-card { min-height: 165px; padding: 20px; display: flex; align-items: center; justify-content: center; background: #1b1b1b; border: 1px solid #343434; }
-.participant-logo-card--light { background: #ffffff; border-color: #dcded8; }
-.participant-logo-card img { display: block; width: auto; height: auto; max-width: 100%; max-height: 125px; object-fit: contain; }
+.participant-logo-card { min-height: 200px; padding: 20px; display: flex; align-items: center; justify-content: center; background: #ffffff; border: 1px solid #dcded8; }
+.participant-logo-card--donmar { min-height: 275px; }
+.participant-logo-card img { display: block; width: auto; height: auto; max-width: 100%; max-height: 165px; object-fit: contain; }
+.participant-logo-card--donmar img { max-height: 235px; }
 .previous-participants-note { max-width: 740px; font-size: 12px; color: var(--muted); margin-top: 26px; }
 @media (max-width: 900px) { .participant-logo-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (max-width: 650px) {
@@ -454,6 +455,8 @@ details[open] summary .expand-icon svg, .faq-item[open] summary svg { transform:
   .previous-participants-heading h3 { font-size: 20px; }
   .previous-participants-heading p, .previous-participants-intro { font-size: 14px; }
   .participant-logo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 22px; }
-  .participant-logo-card { min-height: 132px; padding: 16px; }
-  .participant-logo-card img { max-height: 98px; }
+  .participant-logo-card { min-height: 156px; padding: 16px; }
+  .participant-logo-card img { max-height: 125px; }
+  .participant-logo-card--donmar { min-height: 235px; }
+  .participant-logo-card--donmar img { max-height: 205px; }
 }
