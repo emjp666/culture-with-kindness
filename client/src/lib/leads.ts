@@ -38,7 +38,7 @@ export const leads: LeadProfile[] = [
       'Jacqueline has extensive experience across social care and therapeutic community work. She has worked at Clean Break for two decades.',
       'She is a leader in trauma-informed creative practice and a champion of social justice and anti-racism. Jacqueline brings deep expertise in creating supportive creative spaces that centre the agency and participation of women affected by the criminal justice system.',
     ],
-  },,
+  },
   {
     id: 'tracey-anderson',
     name: 'Tracey Anderson',
