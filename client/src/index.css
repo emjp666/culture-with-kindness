@@ -433,3 +433,18 @@ details[open] summary .expand-icon svg, .faq-item[open] summary svg { transform:
   .lead-bio-portrait { float: none; width: 96px; height: 96px; margin: 0 0 20px; }
   .lead-bio-contribution h3 { font-size: 20px; }
 }
+
+
+/* Previous Leading with Kindness participants — text-only until public logo permissions are confirmed */
+.previous-participants-section { background: #f7f8f5; border-block: 1px solid var(--line); }
+.previous-participants-section .eyebrow { color: #37665a; }
+.previous-participants-section h2 { max-width: 850px; margin-top: 16px; }
+.previous-participants-intro { max-width: 760px; margin-top: 22px; font-size: 15px; color: var(--muted); }
+.previous-participants-heading { padding-top: 42px; margin-top: 44px; border-top: 1px solid var(--line); }
+.previous-participants-heading h3 { font-size: 24px; }
+.previous-participants-heading p { margin-top: 12px; font-size: 15px; color: var(--muted); }
+.previous-participants-list { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; list-style: none; padding: 0; margin: 30px 0 0; }
+.previous-participants-list li { min-height: 118px; padding: 18px 15px; border: 1px solid #dcded8; background: #fff; display: flex; align-items: center; justify-content: center; text-align: center; font-family: 'Manrope', sans-serif; font-size: 17px; line-height: 1.35; font-weight: 750; letter-spacing: -.03em; }
+.previous-participants-note { max-width: 740px; font-size: 12px; color: var(--muted); margin-top: 26px; }
+@media (max-width: 900px) { .previous-participants-list { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 650px) { .previous-participants-list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; } .previous-participants-list li { min-height: 100px; font-size: 14px; padding: 14px; } .previous-participants-heading { padding-top: 28px; margin-top: 30px; } .previous-participants-heading h3 { font-size: 20px; } .previous-participants-heading p, .previous-participants-intro { font-size: 14px; } }
