@@ -10,7 +10,7 @@ export function TrainingSection() {
           <h2>Four workshops.<br /><span className="mint-text">Choose what’s relevant.</span></h2>
           <p>Your people choose sessions suited to their roles, learning alongside participants from the cultural and social sectors.</p>
         </div>
-        <div className="training-meta"><span><Clock3 size={16} /> Half-day sessions</span><span><MapPin size={16} /> In person · Kentish Town, London</span></div>
+        <div className="training-meta"><span><Clock3 size={16} /> Half-day and full-day sessions</span><span><MapPin size={16} /> In person · Kentish Town, London</span></div>
         <div className="workshop-list">
           {workshops.map((workshop, index) => (
             <details className="workshop" key={workshop.number} open={index === 0}>
