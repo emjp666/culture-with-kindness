@@ -435,7 +435,7 @@ details[open] summary .expand-icon svg, .faq-item[open] summary svg { transform:
 }
 
 
-/* Previous Leading with Kindness participants — text-only until public logo permissions are confirmed */
+/* Previous Leading with Kindness participants */
 .previous-participants-section { background: #f7f8f5; border-block: 1px solid var(--line); }
 .previous-participants-section .eyebrow { color: #37665a; }
 .previous-participants-section h2 { max-width: 850px; margin-top: 16px; }
@@ -448,3 +448,9 @@ details[open] summary .expand-icon svg, .faq-item[open] summary svg { transform:
 .previous-participants-note { max-width: 740px; font-size: 12px; color: var(--muted); margin-top: 26px; }
 @media (max-width: 900px) { .previous-participants-list { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (max-width: 650px) { .previous-participants-list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; } .previous-participants-list li { min-height: 100px; font-size: 14px; padding: 14px; } .previous-participants-heading { padding-top: 28px; margin-top: 30px; } .previous-participants-heading h3 { font-size: 20px; } .previous-participants-heading p, .previous-participants-intro { font-size: 14px; } }
+
+
+/* Original participant logos extracted from Clean Break's approved slide artwork. */
+.previous-participants-artwork { margin-top: 30px; width: 100%; overflow-x: auto; background: #fff; border: 1px solid #dcded8; border-radius: 3px; }
+.previous-participants-artwork img { display: block; width: 100%; height: auto; min-width: 720px; object-fit: contain; }
+@media (max-width: 750px) { .previous-participants-artwork { margin-top: 22px; } }
