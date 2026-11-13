@@ -14,7 +14,7 @@ export const leads: LeadProfile[] = [
   {
     id: 'anna-herrmann',
     name: 'Anna Herrmann',
-    role: 'Artistic Director',
+    role: 'Artistic Director / Joint CEO',
     summary: 'An experienced trauma-informed facilitator and artistic leader with over three decades of experience in theatre and social change.',
     biography: [
       'Anna is an experienced trauma-informed facilitator and artistic leader with over three decades of experience in theatre and social change in the UK and internationally. Her practice combines creative participation, arts education and a commitment to social and racial justice.',
@@ -32,11 +32,21 @@ export const leads: LeadProfile[] = [
   {
     id: 'jacqueline-stewart',
     name: 'Jacqueline Stewart',
-    role: 'Head of Participation & Deputy CEO',
+    role: 'Head of Participation',
     summary: 'Two decades at Clean Break, bringing experience in social care, therapeutic community work and trauma-informed creative practice.',
     biography: [
       'Jacqueline has extensive experience across social care and therapeutic community work. She has worked at Clean Break for two decades.',
       'She is a leader in trauma-informed creative practice and a champion of social justice and anti-racism. Jacqueline brings deep expertise in creating supportive creative spaces that centre the agency and participation of women affected by the criminal justice system.',
     ],
-  },
+  },,
+  {
+    id: 'tracey-anderson',
+    name: 'Tracey Anderson',
+    role: 'Support Manager',
+    summary: 'Her practice draws on theatre for development and using creative work as a tool for communication.',
+    biography: [
+      'Tracey studied at Rose Bruford College and completed an MA in Theatre for Development, exploring theatre as a tool for communication.',
+      'She has trained the Metropolitan Police in race relations and hate crime and has lectured at King Alfred’s College and London Metropolitan University.',
+    ],
+  }
 ];
