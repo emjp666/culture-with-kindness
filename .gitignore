@@ -1,0 +1,19 @@
+# Dependencies and generated output
+node_modules/
+dist/
+
+# Local tools and build caches
+.vercel/
+.vite/
+coverage/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/*.log
+
+# Local credentials (track example files only)
+.env
+.env.*
+!.env.example
+!.env.sample
