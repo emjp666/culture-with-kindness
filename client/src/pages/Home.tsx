@@ -132,7 +132,17 @@ export default function Home() {
               <h3>Previous Leading with Kindness participants</h3>
               <p>Our Leading with Kindness training has welcomed participants from the following organisations:</p>
             </div>
-            <ul className="previous-participants-list" aria-label="Organisations represented by previous Leading with Kindness participants">
+            <figure className="previous-participants-artwork">
+              <img
+                src="/assets/leading-with-kindness-participants.webp"
+                alt="Logos of Arts Council England, Bluecoat, Graeae Theatre Company, Futures Theatre, The Arts Theatre Cambridge, Brixton House and Donmar Warehouse"
+                width="1100"
+                height="520"
+                loading="lazy"
+              />
+            </figure>
+            <span className="sr-only">Organisations represented by previous Leading with Kindness participants:</span>
+            <ul className="previous-participants-list sr-only" aria-label="Organisations represented by previous Leading with Kindness participants">
               <li>Arts Council England</li>
               <li>Bluecoat</li>
               <li>Graeae Theatre Company</li>
