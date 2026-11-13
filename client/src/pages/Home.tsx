@@ -123,6 +123,28 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="previous-participants-section section-space" id="previous-participants" aria-labelledby="previous-participants-title">
+          <div className="page-width">
+            <span className="eyebrow">PREVIOUS TRAINING PARTICIPANTS</span>
+            <h2 id="previous-participants-title">Building on Leading with Kindness</h2>
+            <p className="previous-participants-intro">Culture with Kindness builds on our Leading with Kindness training. Here’s what participants told us after the July 2025 workshop at Clean Break.</p>
+            <div className="previous-participants-heading">
+              <h3>Previous Leading with Kindness participants</h3>
+              <p>Our Leading with Kindness training has welcomed participants from the following organisations:</p>
+            </div>
+            <ul className="previous-participants-list" aria-label="Organisations represented by previous Leading with Kindness participants">
+              <li>Arts Council England</li>
+              <li>Bluecoat</li>
+              <li>Graeae Theatre Company</li>
+              <li>Futures Theatre</li>
+              <li>The Arts Theatre Cambridge</li>
+              <li>Brixton House</li>
+              <li>Donmar Warehouse</li>
+            </ul>
+            <p className="previous-participants-note">Organisations are listed to identify previous training attendance. This does not imply endorsement of, or enrolment in, the Culture with Kindness pilot programme.</p>
+          </div>
+        </section>
+
         <section className="journey-section section-space" id="how-it-works">
           <div className="page-width">
             <div className="section-topline"><span className="eyebrow">HOW IT WORKS FOR YOUR ORGANISATION</span></div>
