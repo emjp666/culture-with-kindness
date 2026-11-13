@@ -136,8 +136,8 @@ export default function Home() {
               <img
                 src="/assets/leading-with-kindness-participants.webp"
                 alt="Logos of Arts Council England, Bluecoat, Graeae Theatre Company, Futures Theatre, The Arts Theatre Cambridge, Brixton House and Donmar Warehouse"
-                width="1100"
-                height="520"
+                width="800"
+                height="284"
                 loading="lazy"
               />
             </figure>
