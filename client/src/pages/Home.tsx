@@ -134,7 +134,7 @@ export default function Home() {
             </div>
             <ul className="participant-logo-grid" aria-label="Organisations represented by previous Leading with Kindness participants">
               <li className="participant-logo-card"><img src="/assets/previous-participants/arts-council-england.webp" alt="Arts Council England logo" width="220" height="95" loading="lazy" decoding="async" /></li>
-              <li className="participant-logo-card"><img src="/assets/previous-participants/bluecoat.webp" alt="Bluecoat logo" width="98" height="145" loading="lazy" decoding="async" /></li>
+              <li className="participant-logo-card participant-logo-card--light"><img src="/assets/previous-participants/bluecoat.webp" alt="Bluecoat logo" width="98" height="145" loading="lazy" decoding="async" /></li>
               <li className="participant-logo-card participant-logo-card--light"><img src="/assets/previous-participants/graeae.webp" alt="Graeae Theatre Company logo" width="180" height="56" loading="lazy" decoding="async" /></li>
               <li className="participant-logo-card"><img src="/assets/previous-participants/futures-theatre.webp" alt="Futures Theatre logo" width="125" height="125" loading="lazy" decoding="async" /></li>
               <li className="participant-logo-card"><img src="/assets/previous-participants/arts-theatre-cambridge.webp" alt="The Arts Theatre Cambridge logo" width="180" height="112" loading="lazy" decoding="async" /></li>
