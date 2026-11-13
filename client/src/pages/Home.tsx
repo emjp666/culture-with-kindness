@@ -132,24 +132,14 @@ export default function Home() {
               <h3>Previous Leading with Kindness participants</h3>
               <p>Our Leading with Kindness training has welcomed participants from the following organisations:</p>
             </div>
-            <figure className="previous-participants-artwork">
-              <img
-                src="/assets/leading-with-kindness-participants.webp"
-                alt="Logos of Arts Council England, Bluecoat, Graeae Theatre Company, Futures Theatre, The Arts Theatre Cambridge, Brixton House and Donmar Warehouse"
-                width="800"
-                height="284"
-                loading="lazy"
-              />
-            </figure>
-            <span className="sr-only">Organisations represented by previous Leading with Kindness participants:</span>
-            <ul className="previous-participants-list sr-only" aria-label="Organisations represented by previous Leading with Kindness participants">
-              <li>Arts Council England</li>
-              <li>Bluecoat</li>
-              <li>Graeae Theatre Company</li>
-              <li>Futures Theatre</li>
-              <li>The Arts Theatre Cambridge</li>
-              <li>Brixton House</li>
-              <li>Donmar Warehouse</li>
+            <ul className="participant-logo-grid" aria-label="Organisations represented by previous Leading with Kindness participants">
+              <li className="participant-logo-card"><img src="/assets/previous-participants/arts-council-england.webp" alt="Arts Council England logo" width="220" height="95" loading="lazy" decoding="async" /></li>
+              <li className="participant-logo-card"><img src="/assets/previous-participants/bluecoat.webp" alt="Bluecoat logo" width="98" height="145" loading="lazy" decoding="async" /></li>
+              <li className="participant-logo-card participant-logo-card--light"><img src="/assets/previous-participants/graeae.webp" alt="Graeae Theatre Company logo" width="180" height="56" loading="lazy" decoding="async" /></li>
+              <li className="participant-logo-card"><img src="/assets/previous-participants/futures-theatre.webp" alt="Futures Theatre logo" width="125" height="125" loading="lazy" decoding="async" /></li>
+              <li className="participant-logo-card"><img src="/assets/previous-participants/arts-theatre-cambridge.webp" alt="The Arts Theatre Cambridge logo" width="180" height="112" loading="lazy" decoding="async" /></li>
+              <li className="participant-logo-card"><img src="/assets/previous-participants/brixton-house.webp" alt="Brixton House logo" width="125" height="125" loading="lazy" decoding="async" /></li>
+              <li className="participant-logo-card"><img src="/assets/previous-participants/donmar-warehouse.webp" alt="Donmar Warehouse logo" width="220" height="56" loading="lazy" decoding="async" /></li>
             </ul>
             <p className="previous-participants-note">Organisations are listed to identify previous training attendance. This does not imply endorsement of, or enrolment in, the Culture with Kindness pilot programme.</p>
           </div>
