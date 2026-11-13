@@ -1,9 +1,9 @@
-import { ArrowRight, ArrowUpRight, Check, BookOpen, UsersRound, Layers3, Download, Asterisk } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, Check, BookOpen, UsersRound, Layers3, Asterisk } from 'lucide-react';
 import SiteHeader from '../components/SiteHeader';
 import { TrainingSection, QuestionsSection } from '../components/ProgrammeDetails';
 import LeadBiographies from '../components/LeadBiographies';
 import { assets } from '../lib/assets';
-import { enquiryEmail, primaryCta, participantExperience } from '../lib/programme';
+import { enquiryEmail, programmeInformationEmail, primaryCta, participantExperience } from '../lib/programme';
 
 export default function Home() {
   return (
@@ -17,12 +17,12 @@ export default function Home() {
             <h1>A kinder culture.<br /><span className="mint-text">A stronger team.</span></h1>
             <p className="hero-intro">Trauma-informed training, resources and bespoke practice support.</p>
             <p className="hero-description">For cultural organisations working across exhibitions, music, theatre, performance, public programmes and participatory arts. Strengthen care and consistency across staff, freelancers and volunteers, including programming, participation, visitor experience, production and leadership teams.</p>
-            <p className="pilot-invitation">We’re inviting arts and cultural organisations to join the Culture with Kindness pilot programme.</p>
+            <p className="pilot-invitation">We’re inviting arts and cultural organisations to explore whether the Culture with Kindness pilot is right for their teams.</p>
             <div className="hero-actions">
               <a href="#enquire" className="button button-mint">{primaryCta} <ArrowUpRight size={19} /></a>
-              <a href={assets.brochure} download="Culture-with-Kindness-Programme-Brochure.pdf" target="_blank" rel="noopener noreferrer" className="button button-outline brochure-download"><Download size={18} /> Download programme brochure <span className="brochure-format">PDF</span></a>
+              <a href={programmeInformationEmail} className="button button-outline brochure-download"><ArrowUpRight size={18} /> Request programme details</a>
             </div>
-            <p className="hero-footnote">12-page programme brochure · Training, resources and bespoke practice support</p>
+            <p className="hero-footnote">Pilot programme · Training, resources and practice support</p>
           </div>
           <figure className="hero-visual">
             <div className="hero-photo-wrap">
@@ -33,7 +33,7 @@ export default function Home() {
           </figure>
         </section>
         <section className="proof-strip page-width" aria-label="Our experience">
-          <div><span className="proof-value">60<span>+</span></span><p>years of creative practice<br />with safety and care at its heart</p></div>
+          <div><span className="proof-value">60</span><p>years’ combined team experience<br />in trauma-informed creative practice</p></div>
           <div><span className="proof-value">50<span>+</span></span><p>cultural organisations listened to<br />in shaping this programme</p></div>
           <div className="proof-statement"><Asterisk className="small-asterisk" size={48} strokeWidth={1.5} aria-hidden="true" /><p>For staff, freelancers<br /><strong>and volunteers.</strong></p></div>
         </section>
@@ -49,7 +49,7 @@ export default function Home() {
               <article>
                 <span className="offer-icon"><UsersRound size={27} strokeWidth={1.5} /></span>
                 <h3>Trauma-informed training.</h3>
-                <p>Half-day, in-person workshops that build practical skills for creative and public-facing roles, with sessions suited to different responsibilities and levels of experience.</p>
+                <p>In-person workshops for creative and public-facing roles, including a half-day introduction and a full-day Caring for Stories session.</p>
                 <a className="text-link" href="#training">Explore the workshops <ArrowUpRight size={18} /></a>
               </article>
               <article>
@@ -66,12 +66,12 @@ export default function Home() {
               </article>
             </div>
             <div className="programme-note">
-              <span><Check size={17} /> Half-day, in-person workshops</span>
+              <span><Check size={17} /> In-person training at Clean Break</span>
               <span><Check size={17} /> Online resources</span>
-              <span><Check size={17} /> Check-ins and attendance reports</span>
+              <span><Check size={17} /> Programme support and progress reviews</span>
             </div>
             <aside className="pilot-summary" aria-labelledby="pilot-heading">
-              <h3 id="pilot-heading">Why organisations choose the programme</h3>
+              <h3 id="pilot-heading">Why a shared approach matters</h3>
               <p>In its consultation with more than 50 cultural organisations, Clean Break heard a shared challenge: building a consistent understanding of trauma-informed practice across teams. It also heard that people championing this work could feel unsupported when responsibility for care was not shared.</p>
               <p>Culture with Kindness responds to those conversations with practical training, resources and space for reflection. It is a pilot programme, and the offer will evolve with the organisations taking part.</p>
             </aside>
@@ -86,7 +86,7 @@ export default function Home() {
             <div className="resources-copy">
               <span className="eyebrow">ONLINE RESOURCES</span>
               <h2>Tools for your<br />day-to-day work.</h2>
-              <p>The programme includes online resources with practical tools for teams working directly with audiences, participants and artists. Revisit Clean Break’s trauma-informed approach whenever you need a reference.</p>
+              <p>The programme includes access to Clean Break’s Knowledge Hub, with resources and practical tools for working with audiences, participants and artists. Teams can return to these resources throughout their agreed programme access period.</p>
               <a href="https://www.cleanbreak.org.uk/hub-categories/learning/" target="_blank" rel="noopener noreferrer" className="text-link">Explore Clean Break’s Knowledge Hub <ArrowUpRight size={18} /><span className="sr-only"> (opens in a new tab)</span></a>
             </div>
           </div>
@@ -95,15 +95,15 @@ export default function Home() {
         <section className="support-section section-space" id="support">
           <div className="page-width support-layout">
             <div className="support-intro">
-              <span className="eyebrow">CHECK-INS & PRACTICE SUPPORT</span>
-              <h2>Included support.<br /><span className="mint-text">Bespoke options.</span></h2>
-              <p>Programme check-ins, attendance reports and updates on upcoming opportunities help your organisation make full use of the programme.</p>
-              <p className="support-note">Alongside this, Clean Break can discuss bespoke practice support for your context. Its scope is agreed with you.</p>
+              <span className="eyebrow">FOCUSED PRACTICE SUPPORT</span>
+              <h2>Support to put<br /><span className="mint-text">learning into practice.</span></h2>
+              <p>Alongside training and online resources, Clean Break can discuss focused support to help your organisation embed trauma-informed approaches in everyday work.</p>
+              <p className="support-note">We’ll agree the scope with you. Additional bespoke consultancy for exhibitions, performances and events is priced separately.</p>
             </div>
             <div className="support-list">
-              <article><span>01</span><div><h3>Practice review</h3><p>A review of your current practice with an experienced trauma-informed practitioner, offering practical recommendations relevant to your organisation.</p></div></article>
-              <article><span>02</span><div><h3>Creative project support</h3><p>Bespoke support for upcoming exhibitions, performances and events, including lived-experience feedback.</p></div></article>
-              <article><span>03</span><div><h3>Stakeholder presentations</h3><p>Presentations to stakeholders on embedding trauma-informed practice through shared responsibility and organisational learning.</p></div></article>
+              <article><span>01</span><div><h3>One-to-one practice dialogue</h3><p>Explore your current practice with an experienced trauma-informed practitioner and discuss practical recommendations relevant to your organisation.</p></div></article>
+              <article><span>02</span><div><h3>Shared responsibility for care</h3><p>Consider ways to engage staff and volunteers in embedding agreed practices through organisational learning and reflection.</p></div></article>
+              <article><span>03</span><div><h3>Additional bespoke consultancy</h3><p>Discuss support for upcoming exhibitions, performances or events. Any additional bespoke work is scoped and priced separately.</p></div></article>
             </div>
           </div>
         </section>
@@ -117,7 +117,7 @@ export default function Home() {
             <div className="approach-copy">
               <span className="eyebrow">03 / ROOTED IN EXPERIENCE</span>
               <h2>Established practice.<br />Experienced people.</h2>
-              <p>Clean Break is a theatre company with a 45-year track record of holding creative spaces with safety and care at their heart. Our decades of creative work with women who are criminalised inform our approach to supporting organisations to build confident, consistent trauma-informed practice.</p>
+              <p>Founded in 1979, Clean Break brings decades of theatre-making and participation with women who are criminalised to its work with cultural organisations. Our practice and organisational learning inform how we support teams to develop consistent, trauma-informed approaches.</p>
               <LeadBiographies />
             </div>
           </div>
@@ -128,6 +128,12 @@ export default function Home() {
             <span className="eyebrow">PREVIOUS TRAINING PARTICIPANTS</span>
             <h2 id="previous-participants-title">Building on Leading with Kindness</h2>
             <p className="previous-participants-intro">Culture with Kindness builds on our Leading with Kindness training. Here’s what participants told us after the July 2025 workshop at Clean Break.</p>
+            <div className="previous-participants-feedback" aria-label="July 2025 Leading with Kindness workshop feedback">
+              <article><strong>100%</strong><p>reported more skills and knowledge in trauma-informed practice following the workshop.</p><small>13 of 13 respondents: nine strongly agreed and four agreed.</small></article>
+              <article><strong>92%</strong><p>rated the workshop excellent.</p><small>12 of 13 respondents. All 13 rated it excellent or very good.</small></article>
+              <blockquote><p>“Both facilitators were prepared, informed, fun, and great teachers. Thank you!”</p><cite>Anonymous participant, July 2025.</cite></blockquote>
+            </div>
+            <p className="previous-participants-feedback-note">Feedback from 13 respondents to the July 2025 Leading with Kindness workshop, not an evaluation of the Culture with Kindness pilot.</p>
             <div className="previous-participants-heading">
               <h3>Previous Leading with Kindness participants</h3>
               <p>Our Leading with Kindness training has welcomed participants from the following organisations:</p>
@@ -151,9 +157,9 @@ export default function Home() {
             <h2>From conversation<br />to shared practice.</h2>
             <div className="journey-steps">
               <article><span>01</span><h3>Discuss your needs</h3><p>Talk with Clean Break about your organisation, teams and priorities.</p></article>
-              <article><span>02</span><h3>Agree a suitable package</h3><p>Confirm the training and resources that are right for your context.</p></article>
-              <article><span>03</span><h3>Share access information</h3><p>Clean Break provides the information participants need to select and book relevant training.</p></article>
-              <article><span>04</span><h3>Keep connected</h3><p>Receive check-ins, attendance reports and updates on upcoming opportunities.</p></article>
+              <article><span>02</span><h3>Review a proposal</h3><p>If the programme looks suitable, we’ll confirm the proposed scope, arrangements and fees for you to consider.</p></article>
+              <article><span>03</span><h3>Share access details</h3><p>If you decide to take part, we’ll provide booking details and Knowledge Hub access to share with your team.</p></article>
+              <article><span>04</span><h3>Review and adapt</h3><p>Stay connected with Clean Break to review participation, progress and opportunities to embed learning.</p></article>
             </div>
             <div className="participant-experience">
               <span className="eyebrow">THE PARTICIPANT EXPERIENCE</span>
@@ -173,10 +179,10 @@ export default function Home() {
             <div>
               <span className="eyebrow">START WITH A CONVERSATION</span>
               <h2>Talk to us about<br />your organisation.</h2>
-              <p>Tell us about your organisation, the people you’d like to involve and the priorities you’re working with. We’ll discuss whether Culture with Kindness is a good fit and explain the programme, arrangements and next steps.</p>
+              <p>Tell us your approximate team size, your training or practice priority and your preferred timeframe. We’ll discuss whether Culture with Kindness is a good fit, then provide a proposal confirming the scope, arrangements and fees.</p>
               <a href={enquiryEmail} className="button button-dark">{primaryCta} <ArrowUpRight size={20} /></a>
               <small className="enquiry-reassurance">An enquiry doesn’t commit you to joining.</small>
-              <a href={assets.brochure} download="Culture-with-Kindness-Programme-Brochure.pdf" target="_blank" rel="noopener noreferrer" className="brochure-link"><Download size={16} /> Download programme brochure <span>(PDF)</span></a>
+              <a href={programmeInformationEmail} className="brochure-link"><ArrowUpRight size={16} /> Request full programme details <span>(email)</span></a>
             </div>
             <div className="enquiry-contact">
               <p>CONTACT CLEAN BREAK</p>
