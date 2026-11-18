@@ -14,7 +14,7 @@ export default function Home() {
         <section className="hero page-width">
           <div className="hero-copy">
             <p className="eyebrow"><span className="mint-dot" /> CULTURE WITH KINDNESS · A PROGRAMME BY CLEAN BREAK</p>
-            <h1>A stronger team.<br /><span className="mint-text">A kinder culture.</span></h1>
+            <h1>A kinder culture.<br /><span className="mint-text">A stronger team.</span></h1>
             <p className="hero-intro">Trauma-informed training, resources and focused practice support.</p>
             <p className="hero-description">For cultural organisations working across exhibitions, music, theatre, performance, public programmes and participatory arts. Strengthen care and consistency across staff, freelancers and volunteers, including programming, participation, visitor experience, production and leadership teams.</p>
             <p className="pilot-invitation">We’re inviting arts and cultural organisations to explore whether the Culture with Kindness pilot is right for their teams.</p>
