@@ -14,8 +14,8 @@ export default function Home() {
         <section className="hero page-width">
           <div className="hero-copy">
             <p className="eyebrow"><span className="mint-dot" /> CULTURE WITH KINDNESS · A PROGRAMME BY CLEAN BREAK</p>
-            <h1>A kinder culture.<br /><span className="mint-text">A stronger team.</span></h1>
-            <p className="hero-intro">Trauma-informed training, resources and bespoke practice support.</p>
+            <h1>A stronger team.<br /><span className="mint-text">A kinder culture.</span></h1>
+            <p className="hero-intro">Trauma-informed training, resources and focused practice support.</p>
             <p className="hero-description">For cultural organisations working across exhibitions, music, theatre, performance, public programmes and participatory arts. Strengthen care and consistency across staff, freelancers and volunteers, including programming, participation, visitor experience, production and leadership teams.</p>
             <p className="pilot-invitation">We’re inviting arts and cultural organisations to explore whether the Culture with Kindness pilot is right for their teams.</p>
             <div className="hero-actions">
@@ -33,8 +33,8 @@ export default function Home() {
           </figure>
         </section>
         <section className="proof-strip page-width" aria-label="Our experience">
-          <div><span className="proof-value">60<span>+</span></span><p>years combined team experience<br />in trauma-informed creative practice</p></div>
-          <div><span className="proof-value">50<span>+</span></span><p>cultural organisations listened to<br />in shaping this programme</p></div>
+          <div><span className="proof-value">60<span>+</span></span><p>years of combined experience<br />in trauma-informed creative practice</p></div>
+          <div><span className="proof-value">50<span>+</span></span><p>cultural organisations consulted<br />in shaping this programme</p></div>
           <div className="proof-statement"><Asterisk className="small-asterisk" size={48} strokeWidth={1.5} aria-hidden="true" /><p>For staff, freelancers<br /><strong>and volunteers.</strong></p></div>
         </section>
 
@@ -43,7 +43,7 @@ export default function Home() {
             <div className="section-topline"><span className="eyebrow">01 / THE PROGRAMME</span></div>
             <div className="section-heading-row">
               <h2>Build confident teams.<br />Strengthen shared practice.</h2>
-              <p>Trauma-informed training, resources and bespoke practice support for arts and cultural organisations. Help your staff, freelancers and volunteers develop practical skills and a shared approach to care across programmes, public spaces and working relationships.</p>
+              <p>Trauma-informed training, resources and focused practice support for arts and cultural organisations. Additional bespoke consultancy is priced separately. Help your staff, freelancers and volunteers develop practical skills and a shared approach to care across programmes, public spaces and working relationships.</p>
             </div>
             <div className="offer-columns">
               <article>
@@ -60,9 +60,9 @@ export default function Home() {
               </article>
               <article>
                 <span className="offer-icon"><Layers3 size={27} strokeWidth={1.5} /></span>
-                <h3>Bespoke practice support.</h3>
-                <p>Discuss support shaped around your organisation, from practice reviews and support for exhibitions, performances and events to stakeholder presentations on embedding trauma-informed practice.</p>
-                <a className="text-link" href="#support">Explore bespoke support <ArrowUpRight size={18} /></a>
+                <h3>Focused practice support.</h3>
+                <p>Discuss support tailored to your organisation, including practice reviews and support for exhibitions, performances and events.</p>
+                <a className="text-link" href="#support">Explore focused support <ArrowUpRight size={18} /></a>
               </article>
             </div>
             <div className="programme-note">
@@ -72,7 +72,7 @@ export default function Home() {
             </div>
             <aside className="pilot-summary" aria-labelledby="pilot-heading">
               <h3 id="pilot-heading">Why a shared approach matters</h3>
-              <p>In its consultation with more than 50 cultural organisations, Clean Break heard a shared challenge: building a consistent understanding of trauma-informed practice across teams. It also heard that people championing this work could feel unsupported when responsibility for care was not shared.</p>
+              <p>Consultation with more than 50 cultural organisations highlighted a shared challenge: building a consistent understanding of trauma-informed practice across teams. People championing this work often felt unsupported when responsibility for care was not shared.</p>
               <p>Culture with Kindness responds to those conversations with practical training, resources and space for reflection. It is a pilot programme, and the offer will evolve with the organisations taking part.</p>
             </aside>
           </div>
@@ -129,7 +129,7 @@ export default function Home() {
             <h2 id="previous-participants-title">Building on Leading with Kindness</h2>
             <p className="previous-participants-intro">Culture with Kindness builds on our Leading with Kindness training. Here’s what participants told us after the July 2025 workshop at Clean Break.</p>
             <div className="previous-participants-feedback" aria-label="July 2025 Leading with Kindness workshop feedback">
-              <article><strong>100%</strong><p>reported more skills and knowledge in trauma-informed practice following the workshop.</p><small>13 of 13 respondents: nine strongly agreed and four agreed.</small></article>
+              <article><strong>100%</strong><p>reported increased skills and knowledge in trauma-informed practice following the workshop.</p><small>13 of 13 respondents: nine strongly agreed and four agreed.</small></article>
               <article><strong>92%</strong><p>rated the workshop excellent.</p><small>12 of 13 respondents. All 13 rated it excellent or very good.</small></article>
               <blockquote><p>“Both facilitators were prepared, informed, fun, and great teachers. Thank you!”</p><cite>Anonymous participant, July 2025.</cite></blockquote>
             </div>
