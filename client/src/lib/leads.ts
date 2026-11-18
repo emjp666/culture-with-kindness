@@ -19,7 +19,7 @@ export const leads: LeadProfile[] = [
     biography: [
       'Anna is an experienced trauma-informed facilitator and artistic leader with over three decades of experience in theatre and social change in the UK and internationally. Her practice combines creative participation, arts education and a commitment to social and racial justice.',
       'She joined Clean Break in 2002 as Head of Education, leading the company’s award-winning theatre and participation work with women in the criminal justice system and women at risk of entering it. She became sole Artistic Director in 2022, bringing extensive experience of hands-on delivery to her organisational leadership.',
-      'Alongside her work at Clean Break, Anna is co-author of Making a Leap: Theatre of Empowerment: A Practical Handbook for Creative Drama Work with Young People, a visiting lecturer on Applied Theatre courses and a trained coach. She holds an MA in Arts Education from Royal Central School of Speech and Drama, where she was awarded an Honorary Fellowship in 2022, and a PG Cert with Distinction in Race and Ethnic Relations from Birkbeck University.',
+      'Alongside her work at Clean Break, Anna is a co-author of Making a Leap: Theatre of Empowerment: A Practical Handbook for Creative Drama Work with Young People, a visiting lecturer on Applied Theatre courses and a trained coach. She holds an MA in Arts Education from Royal Central School of Speech and Drama, where she was awarded an Honorary Fellowship in 2022, and a PG Cert with Distinction in Race and Ethnic Relations from Birkbeck University.',
     ],
     contribution: {
       heading: 'What Anna brings to Culture with Kindness',
@@ -43,7 +43,7 @@ export const leads: LeadProfile[] = [
     id: 'tracey-anderson',
     name: 'Tracey Anderson',
     role: 'Support Manager',
-    summary: 'Her practice draws on theatre for development and using creative work as a tool for communication.',
+    summary: 'Her practice draws on theatre for development and uses creative work as a tool for communication.',
     biography: [
       'Tracey studied at Rose Bruford College and completed an MA in Theatre for Development, exploring theatre as a tool for communication.',
       'She has trained the Metropolitan Police in race relations and hate crime and has lectured at King Alfred’s College and London Metropolitan University.',
