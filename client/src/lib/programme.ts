@@ -15,7 +15,7 @@ export const workshops = [
   },
   {
     number: '03',
-    title: 'Responding with Kindness',
+    title: 'Holding Challenging Situations with Kindness',
     audience: 'For public-facing staff',
     description: 'Explore how distress may affect behaviour and how a trauma-informed approach can support de-escalation with care and clear boundaries.',
   },
@@ -44,11 +44,11 @@ export const faqs = [
   },
   {
     question: 'How long does programme access last?',
-    answer: 'The programme presentation sets out training passes valid for 12 months, or six months for smaller organisations. We’ll confirm the access period and arrangements applicable to your organisation in a proposal.',
+    answer: 'Training passes are valid for 12 months, or six months for smaller organisations. We’ll confirm the access period and arrangements applicable to your organisation in a proposal.',
   },
   {
     question: 'How are training places and fees arranged?',
-    answer: 'Pricing is discussed with each organisation and confirmed in a proposal. The programme is based on one annual price at a low per-person rate, with a minimum of 15 full-access places per organisation. Additional bespoke consultancy is priced separately; we can discuss the relevant scope and arrangements before you make a decision.',
+    answer: 'Pricing is discussed with each organisation and confirmed in a proposal. The programme has one annual price, agreed with your organisation, based on a straightforward per-person rate (minimum 15 places). Additional bespoke consultancy is priced separately; we can discuss the relevant scope and arrangements before you make a decision.',
   },
   {
     question: 'What does the programme include?',
